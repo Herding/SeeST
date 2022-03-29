@@ -1,3 +1,6 @@
+"""训练器，完成模型与数据结合
+"""
+
 import torch
 
 from torch.utils.data import DataLoader
@@ -5,8 +8,28 @@ from torch import Tensor
 
 from utils.supervisor import Collector
 
+
 class Predictor():
+    """训练器，将模型作为输入，并可以训练、验证、预测、保存、加载
+    模型
+    
+    Attributes:
+        _loger: 用于日志操作的
+        _model: 所输入的模型
+        _loss: 训练模型所需的损失函数
+        _epochs: 训练次数
+        _patience: 在验证集上模型不再更新的最大次数
+        _val_res: 保存在验证集上的评价结果（默认是MAE），作为评价模型优劣的依据
+        _wait_times: 用于记录模型不再更新的次数
+        _metrics: 评价指标，作为一个列表传入
+        _collector: 用于表示收集模型的预测结果
+        _optim: 训练模型所需的优化器
+    """
+    
     def __init__(self, optim, model, loss, lr, epochs, patience, metrics, loger, device, is_collectd=True) -> None:
+        """初始化训练器
+        """
+        
         self._loger = loger
         self._loger.add_info('Initiating predictor.', 'INFO')
 
@@ -31,9 +54,14 @@ class Predictor():
         self._optim = self.initiate(optim, self._model, lr)
 
     def initiate(self, optim, model, lr):
+        """结合所输入的模型和学习率，
+        初始化优化器
+        """
         return optim(model.parameters(), lr=lr)
 
     def early_stop(self, metrics) -> bool:
+        """判断是否早停
+        """
         if self._val_res > metrics[0][1]:
             self._wait_times = 0
             self._val_res = metrics[0][1]
@@ -46,6 +74,8 @@ class Predictor():
             return True
 
     def fit(self, train_dataset, val_dataset=None, adj=None) -> None:
+        """训练模型
+        """
         is_scaler = train_dataset.is_scaler
         scaler = train_dataset.scaler
         train_dataset = DataLoader(train_dataset, batch_size=train_dataset.bs, shuffle=True)
@@ -87,7 +117,9 @@ class Predictor():
                 self._loger.add_info(f'Epoch {epoch + 1} | training loss: {train_loss:.6f}')
                 # print(f"Epoch {epoch + 1} | training loss: {train_loss}")
 
-    def predict(self, dataset, adj=None) -> (float, Tensor, Tensor):
+    def predict(self, dataset, adj=None):
+        """预测结果
+        """
         is_scaler = dataset.is_scaler
         scaler = dataset.scaler
         dataset = DataLoader(dataset, batch_size=dataset.bs)
@@ -114,6 +146,8 @@ class Predictor():
         return total_loss / len(dataset), torch.cat(Y, dim=0), torch.cat(hat_Y, dim=0)
 
     def evaluate(self, Y, hat_Y) -> list:
+        """评价模型
+        """
         horizon = Y.shape[1]
 
         for h in range(horizon):
@@ -135,9 +169,13 @@ class Predictor():
         return avg_eval
 
     def save(self, model_path) -> None:
+        """保存模型
+        """
         torch.save(self._model, model_path)
         self._loger.add_info('Model saved.', 'INFO')
 
     def load(self, model_path) -> None:
+        """加载模型
+        """
         self._model = torch.load(model_path)
         self._loger.add_info('Model loaded.', 'INFO')

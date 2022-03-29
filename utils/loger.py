@@ -1,3 +1,5 @@
+"""日志相关操作
+"""
 import logging
 
 
@@ -11,6 +13,11 @@ LEVER = {
 }
 
 class Loger():
+    """日志管理
+
+    Attributes:
+        _loger: 生成可管理日志的对象
+    """
     def __init__(self,
                  model_name,
                  log_path,
@@ -18,6 +25,9 @@ class Loger():
                  fmt="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
                  datafmt="%Y/%m/%d %H:%M"
                  ):
+        """初始化，包括
+        日志存放位置，日志输出的格式，日志设置的等级
+        """
         
         file_name = log_path + model_name + '.txt'
         

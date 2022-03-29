@@ -1,3 +1,7 @@
+"""STGCN
+paper:  Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting
+Code:   https://github.com/Davidham3/STGCN
+"""
 import math
 import torch
 import torch.nn as nn
