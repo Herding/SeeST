@@ -1,0 +1,55 @@
+2022/04/12 20:14 - MTGNN - INFO - Generating incidentor to describe and operate correlation of nodes in the graph.
+2022/04/12 20:14 - MTGNN - INFO - Generating train, val and test dataset.
+2022/04/12 20:14 - MTGNN - INFO - Initiating predictor.
+2022/04/12 20:14 - MTGNN - INFO - Epoch 1 | training loss: 5.800046, val_loss: 4.604201
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 1 time step: mae: 3.28116   rmse: 6.42644   mape: 6.56421   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 2 time step: mae: 3.65151   rmse: 7.42686   mape: 7.68233   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 3 time step: mae: 3.95514   rmse: 7.94374   mape: 8.55100   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 4 time step: mae: 4.15996   rmse: 8.31491   mape: 9.23317   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 5 time step: mae: 4.46344   rmse: 8.89368   mape: 9.86481   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 6 time step: mae: 4.70301   rmse: 9.30793   mape: 10.61944   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 7 time step: mae: 4.68482   rmse: 9.61105   mape: 10.90109   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 8 time step: mae: 5.12657   rmse: 9.94651   mape: 11.73387   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 9 time step: mae: 5.18235   rmse: 10.28312   mape: 12.06967   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 10 time step: mae: 5.23386   rmse: 10.53914   mape: 12.29773   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 11 time step: mae: 5.39814   rmse: 10.71626   mape: 12.80734   
+2022/04/12 20:14 - MTGNN - INFO - 
+At next 12 time step: mae: 5.49572   rmse: 11.04411   mape: 13.17117   
+2022/04/12 20:14 - MTGNN - INFO - Avg evaluation: mae: 4.61131   rmse: 9.30665   mape: 10.45798   
+2022/04/12 20:15 - MTGNN - INFO - Epoch 2 | training loss: 4.593347, val_loss: 4.291611
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 1 time step: mae: 2.99322   rmse: 6.42519   mape: 6.27407   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 2 time step: mae: 3.44967   rmse: 7.38223   mape: 7.69498   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 3 time step: mae: 3.65876   rmse: 7.93356   mape: 8.30818   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 4 time step: mae: 3.87042   rmse: 8.30404   mape: 9.00329   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 5 time step: mae: 4.07933   rmse: 8.83625   mape: 9.57041   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 6 time step: mae: 4.29913   rmse: 9.21275   mape: 10.27225   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 7 time step: mae: 4.49230   rmse: 9.52185   mape: 10.88657   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 8 time step: mae: 4.63283   rmse: 9.84708   mape: 11.30613   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 9 time step: mae: 4.83697   rmse: 10.08609   mape: 11.93605   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 10 time step: mae: 4.93797   rmse: 10.30761   mape: 12.31628   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 11 time step: mae: 5.09983   rmse: 10.50199   mape: 12.71251   
+2022/04/12 20:15 - MTGNN - INFO - 
+At next 12 time step: mae: 5.24651   rmse: 10.76311   mape: 13.25448   
+2022/04/12 20:15 - MTGNN - INFO - Avg evaluation: mae: 4.29975   rmse: 9.18502   mape: 10.29460   

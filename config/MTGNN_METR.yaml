@@ -1,0 +1,45 @@
+#global
+seed: 42
+log_path: './logs/'
+
+# data
+data_name: 
+data_path: './dataset/METR/Flow.npy'
+adj_path: './dataset/METR/dists.npy'
+windows: 12
+lag: 0
+horizon: 12
+train_ratio: 0.6
+val_ratio: 0.1
+bs: 32
+is_scaler: True
+load_adj: False
+is_collected: False
+
+# model
+model_name: 'MTGNN'
+d_in: 1
+d_out: 12
+d_node: 40
+apt_size: 10
+
+gcns: 2
+has_apt_adj: True
+has_static_adj: False
+subgraph_size: 20
+
+dilation_exponential: 1
+conv_channels: 32
+residual_channels: 32
+skip_channels: 64
+end_channels: 128
+propalpha: 0.05
+tanhalpha: 3
+
+layers: 2
+layer_norm_affline: True
+
+lr: 0.001
+droprate: 0.3
+epochs: 500
+patience: 32

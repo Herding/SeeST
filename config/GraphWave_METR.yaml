@@ -1,0 +1,42 @@
+#global
+seed: 42
+log_path: './logs/'
+
+# data
+data_name: 
+data_path: './dataset/METR/Flow.npy'
+adj_path: './dataset/METR/dists.npy'
+windows: 12
+lag: 0
+horizon: 12
+train_ratio: 0.6
+val_ratio: 0.1
+bs: 32
+is_scaler: True
+load_adj: False
+is_collected: False
+
+# model
+model_name: 'GraphWave'
+d_in: 1
+d_out: 12
+apt_size: 10
+
+has_gcn: True
+has_apt_adj: True
+is_random_adj: True
+cat_feat_gc: False
+
+residual_channels: 40
+dilation_channels: 40
+skip_channels: 320
+end_channels: 640
+kernel_size: 2
+
+units: 4
+layers: 2
+
+lr: 0.001
+droprate: 0.3
+epochs: 500
+patience: 32

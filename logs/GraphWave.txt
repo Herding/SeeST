@@ -1,0 +1,55 @@
+2022/04/12 20:11 - GraphWave - INFO - Generating incidentor to describe and operate correlation of nodes in the graph.
+2022/04/12 20:11 - GraphWave - INFO - Generating train, val and test dataset.
+2022/04/12 20:11 - GraphWave - INFO - Initiating predictor.
+2022/04/12 20:13 - GraphWave - INFO - Epoch 1 | training loss: 6.315808, val_loss: 4.758932
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 1 time step: mae: 3.51084   rmse: 7.01740   mape: 6.94813   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 2 time step: mae: 4.06488   rmse: 7.98704   mape: 8.26921   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 3 time step: mae: 4.10806   rmse: 8.45101   mape: 8.69897   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 4 time step: mae: 4.31000   rmse: 8.85388   mape: 9.29644   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 5 time step: mae: 4.49870   rmse: 9.34068   mape: 9.86099   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 6 time step: mae: 4.76828   rmse: 9.70540   mape: 10.57006   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 7 time step: mae: 4.84033   rmse: 9.92498   mape: 10.97003   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 8 time step: mae: 5.14147   rmse: 10.30988   mape: 11.55674   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 9 time step: mae: 5.17322   rmse: 10.60263   mape: 11.90854   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 10 time step: mae: 5.37142   rmse: 10.88334   mape: 12.33719   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 11 time step: mae: 5.66916   rmse: 10.97505   mape: 12.97079   
+2022/04/12 20:13 - GraphWave - INFO - 
+At next 12 time step: mae: 5.74618   rmse: 11.24548   mape: 13.29638   
+2022/04/12 20:13 - GraphWave - INFO - Avg evaluation: mae: 4.76688   rmse: 9.69048   mape: 10.55695   
+2022/04/12 20:14 - GraphWave - INFO - Epoch 2 | training loss: 4.726215, val_loss: 4.629317
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 1 time step: mae: 3.39119   rmse: 6.79431   mape: 6.79180   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 2 time step: mae: 3.72363   rmse: 7.72862   mape: 7.77284   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 3 time step: mae: 4.03387   rmse: 8.31961   mape: 8.59317   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 4 time step: mae: 4.16816   rmse: 8.72970   mape: 9.13914   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 5 time step: mae: 4.44723   rmse: 9.19759   mape: 9.87070   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 6 time step: mae: 4.67819   rmse: 9.64677   mape: 10.52115   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 7 time step: mae: 4.77087   rmse: 9.88890   mape: 10.96338   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 8 time step: mae: 4.95413   rmse: 10.25885   mape: 11.45049   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 9 time step: mae: 5.11572   rmse: 10.58293   mape: 11.92200   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 10 time step: mae: 5.23186   rmse: 10.80509   mape: 12.30888   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 11 time step: mae: 5.50428   rmse: 10.97279   mape: 12.89603   
+2022/04/12 20:14 - GraphWave - INFO - 
+At next 12 time step: mae: 5.62882   rmse: 11.23319   mape: 13.31238   
+2022/04/12 20:14 - GraphWave - INFO - Avg evaluation: mae: 4.63733   rmse: 9.60617   mape: 10.46183   

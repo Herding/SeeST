@@ -1,0 +1,83 @@
+2022/04/12 20:04 - AGCRN - INFO - Generating train, val and test dataset.
+2022/04/12 20:04 - AGCRN - INFO - Initiating predictor.
+2022/04/12 20:04 - AGCRN - INFO - Epoch 1 | training loss: nan, val_loss:    nan
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 1 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 2 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 3 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 4 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 5 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 6 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 7 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 8 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 9 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 10 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 11 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - 
+At next 12 time step: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - Avg evaluation: mae: nan   rmse: nan   mape: nan   
+2022/04/12 20:04 - AGCRN - INFO - Early stop at 1
+2022/04/12 20:06 - AGCRN - INFO - Generating train, val and test dataset.
+2022/04/12 20:06 - AGCRN - INFO - Initiating predictor.
+2022/04/12 20:07 - AGCRN - INFO - Epoch 1 | training loss: 12.472765, val_loss: 9.924396
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 1 time step: mae: 10.02934   rmse: 16.10426   mape: 26.56725   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 2 time step: mae: 10.01894   rmse: 15.95305   mape: 26.41353   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 3 time step: mae: 9.80634   rmse: 15.81621   mape: 26.17771   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 4 time step: mae: 9.89529   rmse: 15.90412   mape: 26.36819   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 5 time step: mae: 9.65610   rmse: 15.81297   mape: 26.04924   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 6 time step: mae: 9.56620   rmse: 15.89854   mape: 26.19300   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 7 time step: mae: 10.34766   rmse: 15.64382   mape: 26.58138   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 8 time step: mae: 10.03468   rmse: 15.80615   mape: 26.61732   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 9 time step: mae: 10.71944   rmse: 16.08811   mape: 27.17818   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 10 time step: mae: 9.83572   rmse: 15.84536   mape: 26.44225   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 11 time step: mae: 9.64573   rmse: 15.88942   mape: 26.38387   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 12 time step: mae: 9.68202   rmse: 15.82340   mape: 26.42856   
+2022/04/12 20:07 - AGCRN - INFO - Avg evaluation: mae: 9.93645   rmse: 15.88258   mape: 26.45004   
+2022/04/12 20:07 - AGCRN - INFO - Epoch 2 | training loss: 11.122306, val_loss: 9.284891
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 1 time step: mae: 9.39841   rmse: 16.07043   mape: 25.89705   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 2 time step: mae: 9.34000   rmse: 15.99031   mape: 25.82176   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 3 time step: mae: 9.28868   rmse: 15.95218   mape: 25.80198   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 4 time step: mae: 9.36187   rmse: 15.94610   mape: 25.89834   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 5 time step: mae: 9.23020   rmse: 15.85814   mape: 25.72922   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 6 time step: mae: 9.19525   rmse: 15.95745   mape: 25.83333   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 7 time step: mae: 9.26904   rmse: 15.65575   mape: 25.59137   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 8 time step: mae: 9.34885   rmse: 15.85864   mape: 26.06731   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 9 time step: mae: 9.35281   rmse: 15.71490   mape: 25.78484   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 10 time step: mae: 9.25935   rmse: 15.73196   mape: 25.81230   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 11 time step: mae: 9.22580   rmse: 15.68834   mape: 25.80260   
+2022/04/12 20:07 - AGCRN - INFO - 
+At next 12 time step: mae: 9.31088   rmse: 15.73800   mape: 26.02468   
+2022/04/12 20:07 - AGCRN - INFO - Avg evaluation: mae: 9.29843   rmse: 15.84740   mape: 25.83873   

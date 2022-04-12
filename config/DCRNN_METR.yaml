@@ -1,0 +1,34 @@
+#global
+seed: 42
+log_path: './logs/'
+
+# data
+data_name: 
+data_path: './dataset/METR/Flow.npy'
+adj_path: './dataset/METR/dists.npy'
+windows: 12
+lag: 0
+horizon: 12
+train_ratio: 0.6
+val_ratio: 0.1
+bs: 32
+is_scaler: True
+is_collected: False
+
+# model
+model_name: 'DCRNN'
+d_in: 1
+d_out: 1
+
+max_diff_step: 2
+cl_decay_steps: 2000
+use_curriculum_learning: True
+scheduled_sampling: True
+
+units: 4
+layers: 2
+
+lr: 0.001
+droprate: 0.3
+epochs: 500
+patience: 32

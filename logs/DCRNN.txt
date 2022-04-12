@@ -1,0 +1,55 @@
+2022/04/12 20:09 - DCRNN - INFO - Generating incidentor to describe and operate correlation of nodes in the graph.
+2022/04/12 20:09 - DCRNN - INFO - Generating train, val and test dataset.
+2022/04/12 20:09 - DCRNN - INFO - Initiating predictor.
+2022/04/12 20:09 - DCRNN - INFO - Epoch 1 | training loss: 11.564129, val_loss: 11.788885
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 1 time step: mae: 11.67368   rmse: 15.15015   mape: 26.72056   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 2 time step: mae: 11.66597   rmse: 15.13858   mape: 26.72501   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 3 time step: mae: 11.65674   rmse: 15.08594   mape: 26.74365   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 4 time step: mae: 11.64879   rmse: 15.07238   mape: 26.74490   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 5 time step: mae: 11.82469   rmse: 15.19634   mape: 27.10505   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 6 time step: mae: 11.81785   rmse: 15.18212   mape: 27.11163   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 7 time step: mae: 11.81024   rmse: 15.13531   mape: 27.12924   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 8 time step: mae: 11.80254   rmse: 15.12322   mape: 27.13066   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 9 time step: mae: 11.93036   rmse: 15.22022   mape: 27.40184   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 10 time step: mae: 11.92353   rmse: 15.20478   mape: 27.40936   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 11 time step: mae: 11.91129   rmse: 15.15617   mape: 27.41856   
+2022/04/12 20:09 - DCRNN - INFO - 
+At next 12 time step: mae: 11.90541   rmse: 15.14602   mape: 27.42312   
+2022/04/12 20:09 - DCRNN - INFO - Avg evaluation: mae: 11.79759   rmse: 15.15100   mape: 27.08863   
+2022/04/12 20:10 - DCRNN - INFO - Epoch 2 | training loss: 11.356341, val_loss: 11.495539
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 1 time step: mae: 11.36989   rmse: 15.05790   mape: 26.38587   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 2 time step: mae: 11.36076   rmse: 15.04656   mape: 26.38777   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 3 time step: mae: 11.34980   rmse: 14.98806   mape: 26.40565   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 4 time step: mae: 11.34184   rmse: 14.97525   mape: 26.40635   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 5 time step: mae: 11.53236   rmse: 15.10253   mape: 26.78426   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 6 time step: mae: 11.52459   rmse: 15.08904   mape: 26.78884   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 7 time step: mae: 11.51553   rmse: 15.03613   mape: 26.80637   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 8 time step: mae: 11.50719   rmse: 15.02481   mape: 26.80627   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 9 time step: mae: 11.65301   rmse: 15.12827   mape: 27.10035   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 10 time step: mae: 11.64614   rmse: 15.11397   mape: 27.10715   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 11 time step: mae: 11.63194   rmse: 15.05903   mape: 27.11553   
+2022/04/12 20:10 - DCRNN - INFO - 
+At next 12 time step: mae: 11.62554   rmse: 15.04972   mape: 27.11890   
+2022/04/12 20:10 - DCRNN - INFO - Avg evaluation: mae: 11.50488   rmse: 15.05601   mape: 26.76777   

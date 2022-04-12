@@ -1,0 +1,55 @@
+2022/04/12 20:16 - STGCN - INFO - Generating incidentor to describe and operate correlation of nodes in the graph.
+2022/04/12 20:16 - STGCN - INFO - Generating train, val and test dataset.
+2022/04/12 20:16 - STGCN - INFO - Initiating predictor.
+2022/04/12 20:16 - STGCN - INFO - Epoch 1 | training loss: 6.820494, val_loss: 4.543498
+2022/04/12 20:16 - STGCN - INFO - 
+At next 1 time step: mae: 3.44333   rmse: 6.80044   mape: 7.49320   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 2 time step: mae: 3.74978   rmse: 7.63653   mape: 8.42232   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 3 time step: mae: 3.95887   rmse: 8.14605   mape: 9.00221   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 4 time step: mae: 4.14758   rmse: 8.60928   mape: 9.48850   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 5 time step: mae: 4.34228   rmse: 9.04777   mape: 10.00096   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 6 time step: mae: 4.57444   rmse: 9.50645   mape: 10.76636   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 7 time step: mae: 4.71727   rmse: 9.75329   mape: 11.12734   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 8 time step: mae: 4.85985   rmse: 10.05550   mape: 11.52655   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 9 time step: mae: 5.05160   rmse: 10.41610   mape: 12.11940   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 10 time step: mae: 5.09254   rmse: 10.46815   mape: 12.15954   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 11 time step: mae: 5.29728   rmse: 10.83984   mape: 12.85888   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 12 time step: mae: 5.37649   rmse: 10.98277   mape: 13.03663   
+2022/04/12 20:16 - STGCN - INFO - Avg evaluation: mae: 4.55094   rmse: 9.44156   mape: 10.66683   
+2022/04/12 20:16 - STGCN - INFO - Epoch 2 | training loss: 4.636014, val_loss: 4.373074
+2022/04/12 20:16 - STGCN - INFO - 
+At next 1 time step: mae: 3.15516   rmse: 6.37498   mape: 6.81928   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 2 time step: mae: 3.61611   rmse: 7.30193   mape: 7.99023   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 3 time step: mae: 3.90366   rmse: 7.87060   mape: 8.77656   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 4 time step: mae: 4.02827   rmse: 8.28347   mape: 9.29527   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 5 time step: mae: 4.13124   rmse: 8.76980   mape: 9.75906   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 6 time step: mae: 4.31848   rmse: 9.14591   mape: 10.39654   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 7 time step: mae: 4.48640   rmse: 9.47327   mape: 10.90072   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 8 time step: mae: 4.72841   rmse: 9.74815   mape: 11.39886   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 9 time step: mae: 4.84215   rmse: 10.00836   mape: 11.90874   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 10 time step: mae: 4.93829   rmse: 10.29793   mape: 12.20751   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 11 time step: mae: 5.21294   rmse: 10.46434   mape: 12.80964   
+2022/04/12 20:16 - STGCN - INFO - 
+At next 12 time step: mae: 5.19551   rmse: 10.69544   mape: 13.09101   
+2022/04/12 20:16 - STGCN - INFO - Avg evaluation: mae: 4.37972   rmse: 9.12851   mape: 10.44612   
