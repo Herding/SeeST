@@ -97,6 +97,7 @@ class Incidentor():
     def __init__(self, adj_path, loger, device):
         """初始化"""
         self._adj = np.load(adj_path)
+        self._supports = []
         self._device = device
         self._loger = loger
 
@@ -109,10 +110,14 @@ class Incidentor():
         return torch.from_numpy(self._adj).float().to(self._device)
 
     @property
+    def supports(self):
+        return [torch.from_numpy(adj).float().to(self._device) for adj in self._supports]
+
+    @property
     def nodes(self):
         """邻接矩阵中的结点数量
         """
-        return self._adj.shape[-1]
+        return self._adj.shape[0]
     
     def normalized(self) -> None:
         """计算归一化之后的拉普拉斯矩阵
@@ -129,7 +134,7 @@ class Incidentor():
         """
         self.normalized()
 
-        n = self._adj.shape[-1]
+        n = self._adj.shape[0]
         L0, L1 = np.mat(np.identity(n)), np.mat(np.copy(self._adj))
 
         if k > 1:
@@ -144,6 +149,30 @@ class Incidentor():
             self._adj = np.asarray(L0)
         else:
             raise ValueError(f'ERROR: the size of spatial kernel must be greater than 1, but received "{k}".')
+
+    def random_walk(self):
+        """计算随机游走矩阵
+        """
+        d = np.array(self._adj.sum(1))
+        d_inv = np.power(d, -1).flatten()
+        d_inv[np.isinf(d_inv)] = 0.
+        d_mat_inv = np.diag(d_inv)
+        self._adj = d_mat_inv.dot(self._adj)
+
+    def dual_random_walk(self):
+        """计算双向随机游走矩阵
+        """
+        d = np.array(self._adj.sum(1))
+        d_inv = np.power(d, -1).flatten()
+        d_inv[np.isinf(d_inv)] = 0.
+        d_mat_inv = np.diag(d_inv)
+        self._supports.append(d_mat_inv.dot(self._adj))
+
+        d_t = np.array(self._adj.T.sum(1))
+        d_t_inv = np.power(d_t, -1).flatten()
+        d_t_inv[np.isinf(d_t_inv)] = 0.
+        d_t_mat_inv = np.diag(d_t_inv)
+        self._supports.append(d_t_mat_inv.dot(self._adj.T))
 
 
 class Generator():

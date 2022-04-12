@@ -154,4 +154,4 @@ class STGCN(nn.Module):
         x = self.stconv1(x, adj)
         x = self.stconv2(x, adj)
         x = self.output(x)
-        return x.permute(0, 2, 3, 1)
+        return x.permute(0, 1, 3, 2)

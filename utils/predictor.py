@@ -4,8 +4,6 @@
 import torch
 
 from torch.utils.data import DataLoader
-from torch import Tensor
-
 from utils.supervisor import Collector
 
 
@@ -26,7 +24,8 @@ class Predictor():
         _optim: 训练模型所需的优化器
     """
     
-    def __init__(self, optim, model, loss, lr, epochs, patience, metrics, loger, device, is_collectd=True) -> None:
+    def __init__(self, optim, model, loss, lr, epochs, patience, metrics,
+                 loger, device, is_collectd=True, scheduled_sampling=False) -> None:
         """初始化训练器
         """
         
@@ -50,6 +49,8 @@ class Predictor():
         # for collecting weights and data
         if is_collectd:
             self._collector = Collector()
+
+        self._scheduled_sampling = scheduled_sampling
 
         self._optim = self.initiate(optim, self._model, lr)
 
@@ -79,6 +80,8 @@ class Predictor():
         is_scaler = train_dataset.is_scaler
         scaler = train_dataset.scaler
         train_dataset = DataLoader(train_dataset, batch_size=train_dataset.bs, shuffle=True)
+        
+        batches_seen = 0
 
         for epoch in range(self._epochs):
             total_loss = 0.
@@ -89,7 +92,10 @@ class Predictor():
                 if adj is not None:
                     hat_y = self._model(x, adj)
                 else:
-                    hat_y = self._model(x)
+                    if self._scheduled_sampling:
+                        hat_y = self._model(x, y, batches_seen)
+                    else:
+                        hat_y = self._model(x)
                 
                 if is_scaler:
                     hat_y = scaler.inverse_transform(hat_y)
@@ -99,6 +105,8 @@ class Predictor():
                 self._optim.step()
 
                 total_loss += loss.item()
+
+                batches_seen += 1
 
             train_loss = total_loss / len(train_dataset)
             
